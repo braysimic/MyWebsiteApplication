@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Contact";
+}
+
+@section Header {
+    <h1>Contact Me</h1>
+}
+
+<ul>
+@foreach (var contact in ViewBag.Contacts)
+{
+    <li>@contact</li>
+}
+</ul>
