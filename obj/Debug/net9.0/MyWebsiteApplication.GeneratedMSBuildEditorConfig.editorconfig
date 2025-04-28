@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSGVscC9WaWV3cy9Ib21lL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/Areas/Help/Views/Shared/_HelpLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSGVscC9WaWV3cy9TaGFyZWQvX0hlbHBMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/Areas/Help/Views/Tutorial/Page1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSGVscC9WaWV3cy9UdXRvcmlhbC9QYWdlMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

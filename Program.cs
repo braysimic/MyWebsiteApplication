@@ -13,22 +13,22 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles(); // <--- MOVE IT HERE, after HTTPS redirection
 app.UseRouting();
 app.UseAuthorization();
-app.MapStaticAssets();
 
-// First: Route requests to Areas
+// Setup routing for areas first
 app.MapControllerRoute(
     name: "areas",
     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
-// Then: Route requests to normal controllers
+// Setup routing for normal controllers
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
 
 
 
