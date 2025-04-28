@@ -8,8 +8,9 @@ namespace MyWebsite.Areas.Help.Controllers
         public IActionResult Index(int id = 1)
         {
             if (id < 1 || id > 3)
-                return RedirectToAction("Index", new { id = 1 });
+                id = 1;
 
+            ViewBag.CurrentStep = id;
             return View($"Page{id}");
         }
     }

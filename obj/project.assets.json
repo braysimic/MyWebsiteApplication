@@ -3079,19 +3079,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/braysimic/.nuget/packages/": {}
+    "C:\\Users\\loper\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/MyWebsiteApplication.csproj",
+      "projectUniqueName": "C:\\Users\\loper\\MyWebsiteApplication\\MyWebsiteApplication.csproj",
       "projectName": "MyWebsiteApplication",
-      "projectPath": "/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/MyWebsiteApplication.csproj",
-      "packagesPath": "/Users/braysimic/.nuget/packages/",
-      "outputPath": "/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/",
+      "projectPath": "C:\\Users\\loper\\MyWebsiteApplication\\MyWebsiteApplication.csproj",
+      "packagesPath": "C:\\Users\\loper\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\loper\\MyWebsiteApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/braysimic/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\loper\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -3151,7 +3151,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,12 +1,14 @@
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";  // Refers to the main layout
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<header>
-    @RenderSection("Header", required: false)  <!-- Render the "Header" section from views -->
+<header class="bg-light py-4 border-bottom mb-4">
+    <div class="container">
+        @RenderSection("Header", required: false)
+    </div>
 </header>
 
 <div class="container">
-    @RenderBody()  <!-- This is where the content of the page will be rendered -->
+    @RenderBody()
 </div>
 

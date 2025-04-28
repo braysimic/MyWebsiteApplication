@@ -8,5 +8,5 @@
 
 <p>This is tutorial page 2.</p>
 
-<a href="/Help/Tutorial/Index/1" class="btn btn-secondary">Prev</a>
-<a href="/Help/Tutorial/Index/3" class="btn btn-primary">Next</a>
+<a href="@Url.Action("Index", "Tutorial", new { id = 1, area = "Help" })" class="btn btn-secondary">Prev</a>
+<a href="@Url.Action("Index", "Tutorial", new { id = 3, area = "Help" })" class="btn btn-primary">Next</a>
