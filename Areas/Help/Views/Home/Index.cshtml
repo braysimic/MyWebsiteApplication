@@ -1,7 +1,5 @@
 @{
     ViewData["Title"] = "Help Home";
-    int currentStep = ViewBag.CurrentStep ?? 1;
-    bool showTutorial = Context.Request.Query.ContainsKey("step");
 }
 
 @section Header {
@@ -11,54 +9,17 @@
 
 <ul class="nav nav-tabs" id="helpTab" role="tablist">
     <li class="nav-item" role="presentation">
-        <a class="nav-link @(!showTutorial ? "active" : "")" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+        <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link @(showTutorial ? "active" : "")" id="tutorial-tab" data-bs-toggle="tab" href="#tutorial" role="tab" aria-controls="tutorial" aria-selected="false">Tutorial</a>
+        <a class="nav-link" id="tutorial-tab" href="@Url.Action("Page1", "Tutorial", new { area = "Help" })" role="tab" aria-controls="tutorial" aria-selected="false">Tutorial</a>
     </li>
 </ul>
 
 <div class="tab-content" id="helpTabContent">
-    <div class="tab-pane fade @(!showTutorial ? "show active" : "")" id="home" role="tabpanel" aria-labelledby="home-tab">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
         <h2>Help Home</h2>
         <p>This is the home section of the Help page. Here, you can find general information about using the website.</p>
-        <p><a href="@Url.Action("Index", "Tutorial", new { id = 1, area = "Help" })" class="btn btn-primary">Start Tutorial</a></p>
-    </div>
-
-    <div class="tab-pane fade @(showTutorial ? "show active" : "")" id="tutorial" role="tabpanel" aria-labelledby="tutorial-tab">
-        <div class="mt-4">
-            @switch (currentStep)
-            {
-                case 1:
-                    <h2>Step 1: Getting Started</h2>
-                    <p>This is tutorial step 1.</p>
-                    <div class="mt-3">
-                        <a href="#" onclick="changeStep(2)" class="btn btn-primary">Next</a>
-                    </div>
-                    break;
-                case 2:
-                    <h2>Step 2: Basic Features</h2>
-                    <p>This is tutorial step 2.</p>
-                    <div class="mt-3">
-                        <a href="#" onclick="changeStep(1)" class="btn btn-secondary">Previous</a>
-                        <a href="#" onclick="changeStep(3)" class="btn btn-primary">Next</a>
-                    </div>
-                    break;
-                case 3:
-                    <h2>Step 3: Advanced Features</h2>
-                    <p>This is tutorial step 3.</p>
-                    <div class="mt-3">
-                        <a href="#" onclick="changeStep(2)" class="btn btn-secondary">Previous</a>
-                    </div>
-                    break;
-            }
-        </div>
+        <p><a href="@Url.Action("Page1", "Tutorial", new { area = "Help" })" class="btn btn-primary">Start Tutorial</a></p>
     </div>
 </div>
-
-<script>
-function changeStep(step) {
-    // Just update URL and reload - the server-side logic will handle the tab state
-    window.location.href = `${window.location.pathname}?step=${step}`;
-}
-</script>

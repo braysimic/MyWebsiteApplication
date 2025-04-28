@@ -10,8 +10,25 @@ namespace MyWebsite.Areas.Help.Controllers
             if (id < 1 || id > 3)
                 id = 1;
 
-            ViewBag.CurrentStep = id;
-            return View($"Page{id}");
+            return RedirectToAction($"Page{id}");
+        }
+
+        public IActionResult Page1()
+        {
+            ViewBag.CurrentStep = 1;
+            return View();
+        }
+
+        public IActionResult Page2()
+        {
+            ViewBag.CurrentStep = 2;
+            return View();
+        }
+
+        public IActionResult Page3()
+        {
+            ViewBag.CurrentStep = 3;
+            return View();
         }
     }
 }
