@@ -6,9 +6,17 @@
     <h1>Contact Me</h1>
 }
 
-<ul>
-@foreach (var contact in ViewBag.Contacts)
+@if (ViewBag.Contacts != null)
 {
-    <li>@contact</li>
+    foreach (var contact in ViewBag.Contacts)
+    {
+        <div class="mb-4">
+            <p>@contact</p>
+            <hr />
+        </div>
+    }
 }
-</ul>
+else
+{
+    <p>No contact info available.</p>
+}

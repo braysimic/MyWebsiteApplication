@@ -11,8 +11,10 @@ namespace MyWebsite.Controllers
 
         public IActionResult About()
         {
-            return View();
+        return View();
         }
+            
+        
 
         public IActionResult Contact()
         {
