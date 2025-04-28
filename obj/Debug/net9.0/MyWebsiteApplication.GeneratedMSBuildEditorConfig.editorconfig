@@ -72,8 +72,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/Views/Shared/_HelpLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19IZWxwTGF5b3V0LmNzaHRtbA==
+[/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -87,7 +87,3 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-acb8bpm33p

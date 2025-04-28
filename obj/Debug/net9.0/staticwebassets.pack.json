@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/scopedcss/projectbundle/MyWebsiteApplication.bundle.scp.css",
-      "PackagePath": "staticwebassets/MyWebsiteApplication.abskwiq4k0.bundle.scp.css"
-    },
-    {
       "Id": "/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

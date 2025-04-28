@@ -1,11 +1,12 @@
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";  // Refers to the main layout
 }
 
-@section Header {
-    <h1>Help Page</h1>
-}
+<header>
+    @RenderSection("Header", required: false)  <!-- Render the "Header" section from views -->
+</header>
 
 <div class="container">
-    @RenderBody()
+    @RenderBody()  <!-- This is where the content of the page will be rendered -->
 </div>
+

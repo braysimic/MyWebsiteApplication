@@ -138,9 +138,7 @@
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/MyWebsiteApplication.RazorAssemblyInfo.cache
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/MyWebsiteApplication.RazorAssemblyInfo.cs
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/MyWebsiteApplication.sourcelink.json
-/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/scopedcss/bundle/MyWebsiteApplication.styles.css
-/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/scopedcss/projectbundle/MyWebsiteApplication.bundle.scp.css
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/compressed/jd8w138dfl-b9sayid5wm.gz
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/compressed/i6uenmz0xm-61n19gt1b8.gz
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/compressed/mjynrxrgsn-xtxxf3hu2r.gz
@@ -203,8 +201,6 @@
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/compressed/f061xieswe-muycvpuwrr.gz
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/compressed/qgdzurjnl7-87fc7y1x7t.gz
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/compressed/h85tdt372a-mlv21k5csn.gz
-/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/compressed/tq0n8kqztz-abskwiq4k0.gz
-/Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/compressed/ol9z7wrhsp-abskwiq4k0.gz
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/staticwebassets.build.json
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/staticwebassets.development.json
 /Users/braysimic/Desktop/MyWebsite/MyWebsiteApplication/obj/Debug/net9.0/staticwebassets.build.endpoints.json
